@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: #FFF8F3;
+    padding-top: 50px;
+
+}
+.logo h2{
+    font-size: 45px;
+    font-weight: 600;
+}
+.color-orange{
+    color: #fd6e0a;
+}
+nav{
+    width: 71%;
+    max-width: 1140px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav .menu{
+    display: flex;
+    list-style: none;
+    gap: 51px;
+}
+nav .menu a{
+    font-size: 20px;
+    color:#474747 ;
+    text-decoration: none;
+    align-items: center;
+
+
+}
+.btn{
+    background-color: #fd6e0a;
+    border: none;
+    border-radius: 10px;
+    padding: 18px 35px;
+    color: #FFF8F3;
+    font-size: 20px;
+    font-weight: bold;
+}
